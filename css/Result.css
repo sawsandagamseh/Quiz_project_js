@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 60px;
+    color:#2a2f4f;
+    width: 500px;
+    padding: 20px;
+}
+body {
+    margin-top: 120px;
+    background-color:#2a2f4f ;
+    color: white ;
+    font-size:50px;
+    
+}
+.contanier{
+    width: 80%;
+    margin: auto;
+    
+}
+ol {
+    list-style-type: none;
+}
+ li {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+    width:auto
+ }
+ span{
+    border: 1px solid white;
+    padding:0 10px; 
+    margin-right: 30px;
+ }
+ .answer{
+    font-size: 30px;
+    float: right;
+
+ }
+ .custom {
+    background-color: #2a2f4f;
+    border: 5px solid white;
+ }
+ .correct{
+    color:gold;
+    font-weight: bold;
+    font-size: 30px;
+
+ }
+ .correct1 {
+    background-color: darkgreen;
+ }
+ .uncorrect {
+    background-color:darkred;
+ }
+ #button{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+ }
+ button{
+    background-color: white;
+    color: #2a2f4f;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px
+ }
+ .card1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+ .score {
+    border: none;
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+    color: gold;
+ }
+ #yourResult {
+    color: gold;
+    border: none;
+    font-size: 60px;
+ }
+ .test {
+   background-color: white;
+   margin: 60px 0;
+ }
+
+ @media screen and (min-width: 481px) and (max-width: 768px) {  
+  body {
+      font-size:25px;
+  }
+  ol {
+      margin: 0;
+      padding: 0;
+  }
+   li {
+      margin: 20px 5px;
+      padding: 20px;
+   }
+   span{
+      padding:0 10px; 
+      margin-right: 0px;
+   }
+   .answer{
+      font-size: 10px;
+   } 
+   h2{
+      font-size: 30px;
+      width: 300px;
+      padding: 10px;
+      margin: 0;
+  } 
+  .test {
+   margin: 30px 0 10px 0;
+ }
+ .score {
+   font-size: 20px;
+}
+ }
+ @media screen and (max-width: 480px){
+   h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+  }
+   body {
+      font-size:15px;
+  }
+  ol {
+      margin: 0;
+      padding: 0;
+  }
+   li {
+      margin: 20px 5px;
+      padding: 20px;
+   }
+   span{
+      padding:0 10px; 
+      margin-right: 0px;
+   }
+   .answer{
+      font-size: 8px;
+      padding: 2px;
+   } 
+   h2{
+      font-size: 20px;
+      width: 150px;
+      padding: 10px;
+      margin: 0;
+  } 
+  .test {
+   margin: 30px 0 10px 0;
+ }
+ .score {
+   font-size: 12px;
+}
+#yourResult {
+   font-size: 30px;
+}
+.custom {
+   border: 2px solid white;
+   border-radius: 10px;
+}
+.custom1 {
+   padding: 10px;
+}
+li {
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+   border: 1px solid white;
+   width:auto
+}
+}

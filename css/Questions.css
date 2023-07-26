@@ -1,0 +1,101 @@
+.qustiontext{
+    margin-top: 25%;
+    margin-right: 25%;
+    color:white;
+    font-size:50px;
+    
+
+}
+#bodycolor{
+    background-color: #2a2f4f;
+
+}
+
+.Choices{
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    /* width:400px */
+    width:auto;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.Choices:hover{
+border: 6px solid white;
+margin-left: 20px;
+
+}
+
+.Letter{
+    border: 1px solid white;
+    width: 80px;
+    padding-left: 10px;
+
+}
+.Question{
+    margin-left: 20px;
+}
+.nextbtn{
+    display:none;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    /* margin-top: 25%; */
+    margin-left: 25%;
+    font-size: 30px;
+    background-color: rgb(6, 211, 242);
+    color: white;
+    width: 200px;
+
+}
+.nextbtn:hover{
+    border: 6px solid rgb(255, 255, 255);
+    background-color: white;
+    color: rgb(6, 211, 242);
+    
+    }
+    @media only screen and (max-width: 768px) and (min-width: 481px){
+        .nextbtn{
+            margin: 15px;
+            margin-left: 40%;
+            font-size: 25px;
+            width: 130px;
+            height: 50px;
+            padding-bottom: 50px;
+        
+        }
+        .qustiontext{
+            font-size:25px;
+            
+        }
+        .Choices{
+            font-size: 20px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 480px){
+        .qustiontext{
+            margin-top: 30%;
+            margin-right: 0%;
+            font-size:20px;
+            
+        
+        }
+        .Choices{
+            font-size: 18px;
+        }
+        .nextbtn{
+            margin: 15px;
+            margin-left: 15%;
+            font-size: 20px;
+            width: 100px;
+            height: 40px;
+            padding-bottom: 40px;
+        }
+
+    }

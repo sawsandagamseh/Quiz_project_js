@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "Q" : "Can I park here?",
+        "awr1" :"Sorry, I did that.",
+        "awr2" :"It's the same place.",
+        "awr3" :"Only for half an hour.",
+        "true" : "Only for half an hour."
+    
+    },
+    {
+        "id": 2,
+        "Q" : "What colour will you paint the children's bedroom?",
+        "awr1" :"I hope it was right.",
+        "awr2" :"We can't decide.",
+        "awr3" :"It wasn't very difficult.",
+        "true" : "We can't decide."
+        },
+    {
+        "id": 3,
+        "Q" : "I can't understand this email.",
+        "awr1" :"Would you like some help?",
+        "awr2" :"Don't you know?",
+        "awr3" :"I suppose you can.",
+        "true" : "Would you like some help?"
+    },
+    {
+        "id": 4,
+        "Q" : "I'd like two tickets for tomorrow night.",
+        "awr1" :"How much did you pay?",
+        "awr2" :"Afternoon and evening.",
+        "awr3" :"I'll just check for you.",
+        "true" : "I'll just check for you."
+    },
+    {
+        "id": 5,
+        "Q" : "Shall we go to the gym now?",
+        "awr1" :"I'm too tired.",
+        "awr2" :"It's very good.",
+        "awr3" :"Not at all.",
+        "true" : "I'm too tired."
+    },
+    {
+        "id": 6,
+        "Q" : "If you rearrange the letters “CARACTTIN” you have the name of a(n):",
+        "awr1" :"Continent",
+        "awr2" :"City",
+        "awr3" :"Ocean",
+        "true" : "Ocean"
+    },
+    {
+        "id": 7,
+        "Q" : "What is the next number in the series: 7, 10, 16, 28, 52, ___",
+        "awr1" :"88",
+        "awr2" :"100",
+        "awr3" :"66",
+        "true" : "100"
+    },
+    {
+        "id": 8,
+        "Q" : "A college professor teaches a class of 80 students. Fourteen students are business majors, six are education majors, and the rest are undecided. What percentage of the class is undecided?",
+        "awr1" :"50%",
+        "awr2" :"75%",
+         "awr3" :"60%",
+        "true" : "75%"
+    },
+    {
+        "id": 9,
+        "Q" : "What is the missing number in the series:3, 9, 81, 15, 21, 71,  __ , 33, 61",
+        "awr1" :"56",
+        "awr2" :"22",
+        "awr3" :"27",
+        "true" : "27"
+    },
+    {
+        "id": 10,
+        "Q" : "Angie’s profits for March totaled $5400. If she profited nine times more in March than in April, what were April’s profits?",
+        "awr1" :"$700",
+        "awr2" :"$48,600",
+        "awr3" :"$600",
+        "true" : "$600"
+    },
+        
+
+    {
+        "id": 11,
+        "Q" : "What is the correct CSS syntax for making all the (span) elements bold?",
+        "awr1" :"span {text-size: bold}",
+        "awr2" :"span {font-weight: bold}",
+        "awr3" :"span style='font-size: bold'",
+        "true" : "span {font-weight: bold}"
+
+    },
+    {
+        "id": 12,
+        "Q" : "How do you add a comment in a CSS file?",
+        "awr1" :"/* this is a comment */",
+        "awr2" :"// this is a comment //",
+        "awr3" :"// this is a comment",
+        "true" : "/* this is a comment */"
+    },
+    {
+        "id": 13,
+        "Q" : "What property is used to change the text color of an element?",
+        "awr1" :"/fontcolor:",
+        "awr2" :"color:",
+        "awr3" :"font-color:    ",
+        "true" : "color:"
+    }
+    ,
+    {
+        "id": 14,
+        "Q" : "What does CSS stand for?",
+        "awr1" :"Custom Style Sheets",
+        "awr2" :"Cascading Style Sheets",
+        "awr3" :"Computer Style Sheets",
+        "true" : "Cascading Style Sheets"
+    },
+    {
+        "id": 15,
+        "Q" : "The # symbol specifies that the selector is?",
+        "awr1" :"Class",
+        "awr2" :"Id",
+        "awr3" :"tag",
+        "true" : "Id"
+    },
+    {
+        "id": 16,
+        "Q" : "Which is the correct CSS syntax?",
+        "awr1" :"{p:color=black(p}",
+        "awr2" :"p:color=black",
+        "awr3" :"p {color: black;}",
+        "true" : "p {color: black;}"
+    },
+    {
+        "id": 17,
+        "Q" : "  HTML stands for ________.",
+        "awr1" :"Hyper Text Markup Language",
+        "awr2" :"Hyper Text Makeup Language",
+        "awr3" :"None of these",
+        "true" :"Hyper Text Markup Language"
+    },
+    {
+        "id": 18,
+        "Q" : "Which of the following is valid colour code ?",
+        "awr1" :"#000000000;",
+        "awr2" :"#00000000;",
+        "awr3" :"#000000;",
+        "true" : "#000000;"
+    },
+    {
+        "id": 19,
+        "Q" : "The href attribute in the link tag specifies the:",
+        "awr1" :"Destination of a link.",
+        "awr2" :"Link",
+        "awr3" :"Hypertext",
+        "true" : "Link"
+    },
+    {
+        "id": 20,
+        "Q" : "Which tag can take width?",
+        "awr1" :"span",
+        "awr2" :"div",
+        "awr3" :"li",
+        "true" : "div"
+    }
+]

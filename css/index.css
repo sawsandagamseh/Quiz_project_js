@@ -1,0 +1,137 @@
+#img1 {
+    width:850px
+}
+h1 {
+    margin: 150px 20px; 
+    font-size: 150px;
+}
+#container{
+    background-color:#2a2f4f;
+    color: whitesmoke;
+}
+h2 {
+    font-size: 70px;
+}
+h3 {
+    font-size: 40px;
+}
+#h3 {
+    margin-top: 50px; 
+    margin-left: 10%; 
+    font-size: 50px;
+}
+#par{
+    margin-top: 20px; 
+    margin-left: 10%; 
+    font-size: 30px;
+}
+#h3a{
+    margin-top: 200px; 
+    font-size: 50px;
+}
+#h3b{
+    margin-left: 10%; 
+    font-size: 50px;
+}
+.par1{
+    margin-left: 10%; 
+    font-size: 30px;
+}
+ul {
+    margin-left: 10%;
+    font-size: 30px;
+}
+#bt{
+    padding: 5px 20px; 
+    margin-bottom: 100px; 
+    margin-top:50px; 
+    border-radius: 10px; 
+    width:250px; 
+    height: 70px; 
+    font-size: 30px; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #img1 {
+        width:400px
+    }
+    h1 {
+        margin: 150px 50px; 
+        font-size: 60px;
+    }  
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    #h3 {
+
+        font-size: 40px;
+    }
+    #par{
+        
+        font-size: 20px;
+    }
+    #h3a{
+        margin-top: 100px; 
+        font-size: 40px;
+    }
+    #h3b{
+        margin-left: 10%; 
+        font-size: 30px;
+    }
+    .par1{
+        margin-left: 10%; 
+        font-size: 20px;
+    }
+    ul {
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (max-width: 480px){
+    #img1 {
+        width:300px
+    }
+    h1 {
+        margin: 50px 30px; 
+        font-size: 50px;
+        text-align: center;
+    }  
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    #h3 {
+
+        font-size: 30px;
+    }
+    #par{
+        
+        font-size: 20px;
+    }
+    #h3a{
+        margin-top: 50px; 
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #h3b{
+        margin-left: 10%; 
+        font-size: 25px;
+    }
+    .par1{
+        margin-left: 10%; 
+        font-size: 20px;
+    }
+    ul {
+        font-size: 20px;
+
+    }
+}
